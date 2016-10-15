@@ -1,5 +1,7 @@
 package com;
 
+//Greater & smaller of three numbers
+
 import java.util.Scanner;
 
 public class Test3 {
@@ -32,7 +34,7 @@ public class Test3 {
 			b=reader.nextInt();	
 		}
 		
-		System.out.println("Enter second number:");
+		System.out.println("Enter third number:");
 		if(reader.hasNextInt()){
 			c=reader.nextInt();	
 		}
@@ -77,7 +79,9 @@ public void lesser(){
 	
 		}
 		
+
 	
+	//swapping two number without initializing third number
 
 public void swap(){
 	
